@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>TJ Stein</title>
+ <title>fire9</title>
  <link href="http://fire9.org/feed/" rel="self"/>
  <link href="http://fire9.org/"/>
- <updated>2013-02-06T00:12:04+08:00</updated>
+ <updated>2013-02-06T13:06:54+08:00</updated>
  <id>http://fire9.org/</id>
  <author>
    <name>fire9</name>
    <email>fire9@me.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Hello,Python</title>
+   <link href="http://fire9.org/2013/02/hello%2Cpython"/>
+   <updated>2013-02-06T00:00:00+08:00</updated>
+   <id>http://fire9.org/2013/02/hello,python</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/fire9.jpg&quot; align=&quot;left&quot; style=&quot;margin-right:30px; margin-top:7px;&quot;&gt;Hi, I'm Fire9.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/local/bin/env python&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# -*- coding:utf8 -*-&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pirnt&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Hello, Python!&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</content>
+ </entry>
  
  
 </feed>
