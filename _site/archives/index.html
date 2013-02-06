@@ -1,0 +1,148 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Archives | Fire9</title>
+  <meta name="description" content="The personal blog of Fire9" />
+  <meta name="author" content="Fire9" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
+  <meta name="keywords" content="TJ Stein, Thomas J. Stein, Thomas Stein" />
+  <meta name="copyright" content="Copyright 2008 to Present"/>
+  <meta name="google-site-verification" content="XUkxAz2T7iH7BfeNCKk88xUnTqNHjnMirb4GQv196GA" />
+  <link href="http://fire9.org/feed" rel="alternate" title="TJ Stein's RSS feed" type="application/rss+xml" />
+  <link href="http://tjstein.com/" rel="home" />
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link type="text/css" rel="stylesheet" media="screen, projection" href="/css/screen.css" /> 
+  <link type="text/css" rel="stylesheet" media="all" href="/css/custom.css" />
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="screen, projection" href="/css/ie.css" />
+  <![endif]--> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script>
+  // Preload font files and finally patch CSS with custom fonts.
+  // We do this to avoid displaying unreadable text while waiting for data.
+  function finalizer() {
+    var n = document.createElement('link');
+    n.href = '/css/screen.css';
+    n.media = 'screen, projection';
+    n.rel = 'stylesheet';
+    n.type = 'text/css';
+    document.getElementsByTagName('head').item(0).appendChild(n);
+  }
+  var countdown = 1;
+  function fetch(url) {
+    try {
+      var req = new XMLHttpRequest();
+      req.open('GET', url, true);
+      req.onreadystatechange = function () { if (req.readyState == 4) {
+        if (--countdown === 0)
+          finalizer()
+      }};
+      req.send();
+    } catch (e) {}
+  }
+  fetch('http://tjstein.com/fonts/DroidSans-webfont.woff');
+  fetch('http://tjstein.com/fonts/DroidSans-webfont.ttf');
+  fetch('http://tjstein.com/fonts/YanoneKaffeesatz-Regular-webfont.woff');
+  fetch('http://tjstein.com/fonts/YanoneKaffeesatz-Regular-webfont.ttf');
+  if (--countdown === 0) finalizer();
+  </script>
+  <script>var _gaq=[['_setAccount','UA-9191070-10'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src='//tjstein.com/js/ga.js';s.parentNode.insertBefore(g,s)})(document,'script')</script>	
+</head>
+  <body>
+    <div class="container">
+      <header class="span-21 last" id="header">
+        <h1><a href="http://fire9.org" rel="home bookmark">Fire9</a></h1>
+      </header>
+
+      <div class="span-16" id="content">
+        <article class="post">
+
+  <h2>Archives</h2>
+
+  <p>Listing 0 archived posts:</p>
+<ul>
+
+</ul>
+
+</article>
+
+      </div>
+      <div class="span-5 last" id="sidebar">
+        <div class="sidebarbox"> 
+          <h4>Pages</h4> 
+          <ul id="pages">
+	        <li>
+              <a rel="bookmark" title="Home" href="http://fire9.org/">Home</a>
+            </li>
+            <li>
+              <a rel="bookmark" title="About" href="http://fire9.org/about">About</a>
+            </li>
+            <li>
+              <a rel="bookmark" title="Archives" href="http://fire9.org/archives" id="archives">Archives</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="sidebarbox"> 
+          <h4>Subscribe</h4> 
+          <ul> 
+            <li> 
+              <a title="RSS Feed" href="http://fire9.org/feed" class="icon-link" id="feed-link">RSS</a> 
+            </li> 
+          </ul> 
+        </div> 
+        <div class="sidebarbox"> 
+          <h4>Elsewhere</h4> 
+          <ul> 
+            <li> 
+              <a rel="bookmark" title="Flickr" href="http://flickr.com/thomasjstein" class="icon-link" id="flickr-link">Flickr</a> 
+            </li> 
+            <li> 
+              <a rel="bookmark" title="Twitter" href="http://twitter.com/tj_stein" class="icon-link" id="twitter-link">Twitter</a> 
+            </li> 
+            <li> 
+              <a rel="bookmark" title="GitHub" href="http://github.com/tjstein" class="icon-link" id="github-link">GitHub</a> 
+            </li> 
+          </ul> 
+        </div>
+        <div class="sidebarbox"> 
+          <h4>Contact Me</h4> 
+          <ul> 
+            <li> 
+              <a rel="bookmark" title="Email" href="mailto:&#116;&#104;&#111;&#109;&#097;&#115;&#106;&#115;&#116;&#101;&#105;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" class="icon-link" id="gmail-link">Gmail</a> 
+            </li> 
+            <li> 
+              <a rel="bookmark" title="Skype" href="skype:mt.tjstein?chat" class="icon-link" id="skype-link">Skype</a> 
+            </li> 
+          </ul> 
+        </div> 
+      </div>
+
+      <footer class="span-21 last" id="footer">
+        All content copyright &copy; TJ Stein. Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository" rel="external" target="_blank">Jekyll</a>.<p>Proudly hosted by <a href="http://mediatemple.net" title="(mt) Media Temple" rel="external" target="_blank">(mt) Media Temple</a>.</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+  //<![CDATA[
+  (function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/tjstein/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+  //]]>
+</script>
+
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
